@@ -1,94 +1,78 @@
 body {
-    display:grid;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, green, aqua);
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    font-family: cursive;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    grid-template-rows: 100%;
     animation-name: event;
     animation-duration: 2s;
     font-family: cursive;
-     background: linear-gradient(green, aqua);
-     padding: 0;
-     margin: 0;
-     width: 100%;
-     height: 100vh;
-     overflow: hidden;
-     grid-template-columns: 85% 15%;
-     grid-template-rows: 100%;
-    }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width:100px;
-    background-color: brown;
-    position:fixed;
-    margin-left: 1250px;
-    top: 7em;
 }
 
-li a {
-    display: block;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    height: 100%;
+}
+
+nav {
+    background: brown;
+    padding: 0;
+    margin: 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+nav ul li a {
     color: aqua;
-    padding: 10px 20px;
     text-decoration: none;
 }
 
-li a:hover {
-background-color:black;
-}
-
-.shownav {
-    height: 0.8em;
-    width: 1.25em;
-    display: block;
-    position: fixed;
-     border-top: 0.2em solid black;
-    border-bottom: 0.2em solid black;
-     border-radius: 0.1em;
-     margin-left: 1300px;
-    }
-  
-    .shownav:before {
-      content: '';
-       position: fixed;
-       width: 1.25em;
-       top: 1.45em;
-       left: 1308px;
-       border-top: 0.2em solid black;
-      }
-
-      .current {
-          background-color: black;
-      }
-
-form {
-    display: grid;
-    width: 500px;
+nav ul li {
+    width: 100%;
+    padding: 10px 0;
     text-align: center;
-    margin-left: 25em;
-    border: 3px black;
-    border-radius: 5px;
 }
 
-form2 {
+nav ul li:hover {
+    background: black;
+}
+
+.current {
+    background: black;
+}
+
+main {
+    padding: 3em;
     display: grid;
-    width: 500px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    grid-gap: 10px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+main > section {
     text-align: center;
-    margin-left: 25em;
-    border: 3px black;
-    border-radius: 5px;
 }
 
-form3 {
-    display:grid; 
-    width: 200px;
-    margin-left: 17.3em;
-    font-style: cursive; 
+main > section > img {
+    width: 100%;
+    height: 80%;
 }
 
-
-
-h1 {
-    text-decoration: underline;
-}
 
 @keyframes event {
     0% {opacity: 0;}
@@ -103,3 +87,13 @@ h1 {
     90% {opacity: 0.9;}
     100% {opacity:1;}
 }
+form {
+    display: grid;
+    width: 1000px;
+    border: 5px black;
+    border-radius: 5px;
+}
+
+
+
+

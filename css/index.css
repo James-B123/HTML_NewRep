@@ -76,3 +76,7 @@ nav ul li:hover {
 h1 {
     text-decoration: underline;
 }
+
+div.close {
+    display: none;
+}

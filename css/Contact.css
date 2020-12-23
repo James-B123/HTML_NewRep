@@ -99,7 +99,9 @@ input {
     font-size: 25px;
 }
 
-
+div.close {
+    display: none;
+}
 
 
 

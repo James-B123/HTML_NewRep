@@ -84,3 +84,7 @@ h3 {
 div.close {
     display: none;
 }
+
+p {
+    margin-bottom: 10px;
+}

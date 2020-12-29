@@ -61,6 +61,7 @@ main {
     padding: 3em 1em;
     grid-template-columns: 33.3% 33.3% 33.3%;
     grid-template-rows: 25% 25% 25% 25%;
+    margin-left: 60px;
 }
 
 @keyframes event {
@@ -83,6 +84,7 @@ img {
 
 p {
     margin-left: -25px;
+    margin-bottom: 10px;
 }
 
 div.close {

@@ -57,6 +57,8 @@ body {
 
 main {
     margin-top: 5em;
+    text-align: center;
+    margin-left: 50px;
 }
 
 @keyframes event {
@@ -80,4 +82,8 @@ h1 {
 div.close {
     display: block; 
     color: green;
+}
+
+p {
+    margin-bottom: 10px;
 }

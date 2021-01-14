@@ -98,7 +98,11 @@ p {
 }
 
 #submit {
-    width: 100px;
+    width: 200px;
+}
+
+input#gdr {
+    display:none; 
 }
 
 

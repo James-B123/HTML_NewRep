@@ -107,8 +107,10 @@ p {
 }
 
 input[type="radio"] {
-    margin-left: 225px;
+    margin-left: 190px;
 }
 
-
+input#gdr {
+    display:none; 
+}
 

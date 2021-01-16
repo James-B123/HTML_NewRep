@@ -52,7 +52,6 @@ body {
     grid-template-rows: 100%;
     animation-name: event;
     animation-duration: 2s;
-    font-family: cursive;
 }
 
 
@@ -87,4 +86,8 @@ div.close {
 
 p {
     margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
 }
